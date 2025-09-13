@@ -1,0 +1,16 @@
+# Python virtual environment
+venv/
+
+# Streamlit secrets file (contains your Gemini API key)
+.streamlit/secrets.toml
+
+# Google Cloud credentials file (very sensitive)
+credentials.json
+
+# User-generated data (should not be part of the source code)
+users.json
+chats/
+
+# Python cache files
+__pycache__/
+*.pyc
